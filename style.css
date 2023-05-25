@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+
+*{
+    margin-top: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Red Hat Display';
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+
+.cover{
+    background-image: url(./assets/meet-header.svg);
+    background-repeat: no-repeat;
+    width: 414px;
+    height: 153px;
+}
+
+.header{
+    display: flex;
+    width: 375px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 14px;
+    margin-top: 28px;
+    height: 14px;
+    border-radius: 100%;
+    background-color: #4D96A9;
+}
+
+.logo2{
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background-color: #855FB1;
+}
+
+
+
+.name{
+    color: #28283D;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.container{
+    margin-top: 10px;
+    width: 375px;
+    height: 2215px;
+    background-color: white;
+}
+
+h1{
+    width: 327px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    color: #28283D;
+    padding-left: 40px;
+    margin-top: 50px;
+}
+
+p{
+    width: 330px;
+    padding-left: 20px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879D;
+}
+
+.button{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button1{
+    background-color: #4D96A9;
+    width: 193px;
+    height: 49px;
+    border-radius: 29px;
+    border: 0;
+
+}
+
+.button2{
+    width: 139px;
+    height: 58px;
+    background-color: #855FB1;
+    border-radius: 29px;
+    border: 0;
+    margin-left: 25px;
+  
+}
+
+a{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    width: 79px;
+    height: 26px; 
+}
+
+span{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8FE3F9;
+    width: 30px;
+    height: 26px;
+    padding-left: 5px;
+}
+
+.line{
+
+    bottom: 540px;
+    width: 56px;
+    height: 140px;
+
+}
+
+.line2{
+    width: 1px;
+    height: 84px;
+    opacity: 0.25;
+    margin-left: 187px;
+    margin-top: 50px;
+    border: 1px solid #878790;
+}
+
+.circle{
+    background-color: #FAFAFA;
+    width: 56px;
+    height: 56px;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 100%;
+    position: relative;
+    left: 160px;
+    bottom: 10px;
+}
+
+
+h2{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #87879D;
+    padding-left: 17px;
+    padding-top: 6px;
+}
+
+.images{
+    margin-left: 30px;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+.built{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #4D96A9;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.smarter{
+    color: #28283D;
+    width: 327px;
+    height: 72px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-left: 24px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.description2{
+    width: 327px;
+    height: 130px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879D;
+    margin-left: 24px;
+    margin-top: 30px;
+}
+
+
+
+.line3 {
+
+    bottom: 540px;
+    width: 56px;
+    height: 140px;
+    position: relative;
+    top: 60px;
+
+}
+
+.line4 {
+    width: 1px;
+    height: 84px;
+    opacity: 0.25;
+    margin-left: 187px;
+    margin-top: 50px;
+    border: 1px solid #878790;
+}
+
+
+
+
+.circle2 {
+    background-color: #FAFAFA;
+    width: 56px;
+    height: 56px;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 100%;
+    position: relative;
+    left: 160px;
+    bottom: 10px;
+}
+
+
+
+
+.footer{
+    background-image: url(./assets/footer.svg);
+    width: 375px;
+    height: 428px;
+}
+
+.footertext{
+    padding-top: 94px;
+    padding-left: 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    width: 327px;
+    height: 78px;
+}
+
+.images-header {
+    display: none;
+}
+
+.rightimages{
+    display: none;
+}
+
+.footerbutton{
+
+        width: 193px;
+        height: 58px;
+        background-color: #855FB1;
+        border-radius: 29px;
+        border: 0;
+        margin-left: 90px;
+        margin-top: 120px;
+
+}
+
+
+@media screen and (min-width: 760px){
+
+    .container{
+        width: 768px;
+        height: 2040px;
+    }
+
+    .description2{
+        width: 573px;
+        height: 78px;
+        margin-left: 100px;
+    }
+
+    .title{
+        padding-left: 155px;
+    }
+   
+
+    p{
+        width: 457px;
+    }
+    h1{
+        margin-left: 60px;
+        width: 330px;
+    }
+
+    .button{
+        display: flex;
+        position: relative;
+        right: 70px;
+    }
+
+    .line{
+        margin-left: 220px;
+    }
+
+    .images{
+        display: flex;
+        justify-content: space-around;
+       
+    }
+
+    .rightimages{
+        display: none;
+    }
+
+    .footer{
+        width: 768px;
+        height: 428px;
+        background-image: url(./assets/tabletfooter.svg);
+    }
+
+    .smarter{
+        width: 360px;
+        margin-left: 200px;
+        text-align: center;
+    }
+    
+    .d
+
+    .description2{
+        margin-left: 97px;
+        width: 573px;
+    }
+
+    .footertext{
+        margin-left: 97px;
+        width: 573px;
+    }
+
+    .footerbutton{
+        margin-left: 287px;
+    }
+
+    .images-header{
+        display: none;
+    }
+
+
+    .line3{
+        position: relative;
+        left: 210px;
+        
+    }
+
+    .cover{
+        background-image: url(./assets/TABLETHEADER.svg);
+        width: 820px;
+        margin-top: 60px;
+        height: 303px;
+    }
+
+    .header{
+        margin-top: 10px;
+        margin-left: 180px;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 1400px){
+
+        .container{
+            width: 1440px;
+            height: 1600px;
+        }
+
+        .images{
+            width: 1110px;
+            height: 242px;
+            position: relative;
+            left: 140px;
+        }
+
+        .line{
+            margin-left: 550px;
+        }
+
+        .footer{
+            background-image: url(./assets/desktopfooter.svg);
+            width: 1440px;
+            height: 308px;
+            display: flex;
+        }
+
+        .line3{
+            position: relative;
+            left: 550px;
+          
+        }
+        .smarter2{
+            margin-left: 340px;
+        }
+
+       .footerbutton{
+
+            position:relative;
+            right: 200px;
+            bottom: 28px;
+            background-color: #B18BDD;
+       }
+
+       .header{
+        margin-left: 540px;
+       }
+ 
+       
+       .cover{
+        background-image: none;
+       }
+
+       .desktop{
+        display: flex;
+        height: 358px;
+       }
+
+       .images-header{
+        display: flex;
+        justify-content:space-between;
+        margin-left: 140px;
+        margin-top: 70px;
+        align-items: center;
+        height: 358px;
+        width: 1500px;
+       }
+
+       .rightimages{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            right: 100px;
+            width: 1500px;
+            top: 70px;
+       }
+            
+        .grid{
+            position: relative;
+            top: 90px;
+            right: 350px;
+       }
+
+       .images2{
+        position: relative;
+        top: 40px;
+       }
+
+       .images3{
+        position: relative;
+        bottom: 40px;
+       }
+        
+       .button{
+        position: relative;
+        right: 242px;
+        top: 50px;
+       }
+
+       .h1{
+        font-size: 64px;
+       }
+
+       .button1{
+        background-color: #71C0D4;
+       }
+       
+       .title{
+        width: 400px;
+       }
+
+       .button2{
+        background-color: #B18BDD;
+       }
+
+       p{
+        width: 510px;
+       }
+
+       .description2{
+
+            width: 540px;
+            height: 78px;
+            margin-left: 120px;
+
+       }
+
+       
+}
